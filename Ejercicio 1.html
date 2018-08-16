@@ -5,25 +5,62 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Document</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
     <body>
-        <h1><b>Bienvenido</b> a la floreria con mas flores de las buenas del pais</h1>
-        <img src="FloresPrincipales.jpg" ><br>
-        <h4>Las flores mas vendidas son:</h4>
-        <br>
-        <ul>
-            <li>
-                <img src="rosa.png" width="300" height="300"><br>
-                <a href="paginaRosa.html">ROSAS</a>
-            </li>
-            <li>
-                <img src="Margarita.jpg" width="400" height="300"><br>
-                <a href="paginaMargarita.html">MARGARITA</a>
-            </li>
-        </ul>
-        <div>
-            <h3>Telefono: 0343-32332333</h3>
-            <h3>floreriapepona@flor.com.ar</h3>
+        <div class="container">
+        
+                <div class="jumbotron">
+                        <h1 class="display-4">Bienvenido a Floreria MariJuana</h1>
+                        <hr class="my-4">
+                        <p>La floreria con mas flores de las buenas del pai.</p>
+                      </div>
+        
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="FloresPrincipales.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="FloresPrincipales2.jpg" alt="Second slide">
+                  </div>
+                </div>
         </div>
+
+        <div class="row">
+        <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="rosa.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Rosa</h5>
+                  <p class="card-text">Las mejores rosas rojas del pais con envio gratuito en el día</p>
+                  <a href="paginaRosa.html" class="btn btn-primary">Mas info...</a>
+                </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Margarita.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Margarita</h5>
+                  <p class="card-text">Las mejores margaritas del pais con envio gratuito en el día</p>
+                  <a href="paginaMargarita.html" class="btn btn-primary">Mas info...</a>
+                </div>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Telefono: 0343-32332333</li>
+              <li class="list-group-item">floreriapepona@flor.com.ar</li>
+            </ul>
+          </div>
+          <br>
+        <div>
+            <a href="formulario.html"> Formulario</a><br>
+            <a href="tabla.html"> Realizar Pedido</a>
+        </div>
+    </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>
